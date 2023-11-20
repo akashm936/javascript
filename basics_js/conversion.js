@@ -47,11 +47,14 @@ let d = a + b * c
 
 // this all operation depend on the prefix or postfix 
 
-let score1 = 100
-score1++;  //postfix  /  this is right way to write a code
-++score1;  // prefix
-console.log(score1);
+// let score1 = 100
+// score1++;  //postfix  /  this is right way to write a code
+// ++score1;  // prefix
+// console.log(score1);
 
 
+let num1 , num2, num3;
 
+num1 = num2 = num3 = 2 + 2 // this code not accepted this is end the redability
 
+console.log(num1, num2, num3) //not prefared
