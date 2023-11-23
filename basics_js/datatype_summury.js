@@ -37,3 +37,34 @@ const newFunction = function(){  //return data type is object function not only 
 }
 
 console.log(typeof isloggedIn);
+
+
+//+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// type of memory in javascript
+// stack (primitive)  Heap (Non-primitive)
+
+// let myname = "Akash"
+
+// let mynewname = myname  
+// mynewname = "Prakash" // they are not change the original value
+
+// console.log(myname);
+// console.log(mynewname);
+// in stack storage the original value can't change
+
+// Non-primitive
+
+let userOne = {
+    email: "akash@gmail.com",
+    name: "akash"
+}
+
+let userTwo = userOne
+
+userTwo.email = "akm@gmail.com"
+
+
+console.log(userTwo);
+console.log(userOne);
+ //in the heap storage the original value will be change
