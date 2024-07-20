@@ -60,7 +60,9 @@ let userOne = {
     name: "akash"
 }
 
+
 let userTwo = userOne
+
 
 userTwo.email = "akm@gmail.com"
 
